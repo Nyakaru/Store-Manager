@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/sub.css">
+    <title>Product Page</title>
+</head>
+   <h3>Edit Product</h3>
+<body>
+    <div class="div">
+        <form action="#">
+            <label for="cname">Product Name</label>
+            <input type="text" id="cname" name="category" placeholder="Product name..." required>
+
+            <label for="price">Price</label>
+            <input type="number" id="price" name="price" placeholder="Price..." required>
+
+            <label for="qty">Quantity</label>
+            <input type="number" id="qty" name="qty" placeholder="Qty..." required>
+
+            <label for="category">Category</label>
+            <select id="category" name="category">
+                <option value="shirt">Shirt</option>
+                <option value="jeans">Jeans</option>
+                <option value="polo">Polo</option>
+                <option value="jack">Jackets</option>
+            </select>
+
+            <label for="avail">Availability</label>
+            <select id="avail" name="avail">
+                <option value="#"></option>
+                <option value="yes">YES</option>
+                <option value="no">NO</option>
+            </select>
+
+            <input type="submit" name="action" value="Save Changes" class="modelinput">
+            <input type="submit" name="action" value="Close"  style="background:#000000;" class="modelinput">
+        </form>
+                        
+    </div>
+     
+</body>
+
+</html>
