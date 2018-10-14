@@ -1,8 +1,4 @@
-    /*-------------
-General Styles
--------------*/
-    
-    * {
+* {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -47,11 +43,7 @@ General Styles
             padding: 80px 30px;
         }
     }
-    /*------------------
- 	Header Section
---------------------*/
-    
-    header {
+header {
         position: absolute;
         top: 0;
         left: 0;
@@ -98,9 +90,6 @@ General Styles
             margin-bottom: 15px;
         }
     }
-    /*----------------
- 	Main Section
-----------------*/
     
     .main {
         position: relative;
@@ -117,7 +106,7 @@ General Styles
         width: 100%;
         height: 100%;
         background-size: cover;
-        background-color: #84d6b5;
+        background-color: #008080;
         z-index: -1;
     }
     
@@ -157,10 +146,6 @@ General Styles
             font-size: 24px;
         }
     }
-    /*---------------------------
- 	 Signup and Login Styles
------------------------------*/
-    
     .container {
         background: rgba(58, 63, 68, 0.5);
         border-radius: 5px;
@@ -222,7 +207,7 @@ General Styles
     }
     
     .form-signup input[type="submit"] {
-        background-color: #84d6b5;
+        background-color: #008080;
         color: #ffffff;
         font-weight: bold;
         font-size: 20px;
@@ -231,7 +216,7 @@ General Styles
     
     .form-signup input[type="submit"]:focus,
     .form-signup input[type="submit"]:hover {
-        background-color: #00B9BC;
+        background-color: #008080;
     }
     
     .form-field {
@@ -240,7 +225,7 @@ General Styles
     }
     
     .forgot a {
-        color: rgb(214, 191, 57);
+        color: #008080;
         margin-left: 8px;
         padding-bottom: 10px;
     }
