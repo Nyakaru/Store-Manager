@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="dash.css">
+	<title>Store Manager | Sales </title>
+</head>
+
+<body>
+
+<div class="admin">
+        <header class="admin-header">
+            <a href="#" class="admin-logo">
+                <h2>Store Management</h2>
+            </a>
+            <div class="search">
+                <i class="fa fa-search searchIcon"></i>
+                <input class="searchBox" type="search" name="search" placeholder="Product name...">
+                <input type="submit" value="Search" class="searchButton">
+            </div>
+        </header>
+        <nav class="sidebar">
+            <ul class="menu">
+                <li class="menu-item">
+                    <a href="dashboard.html" class="menu-link">Dashboard</a>
+                </li>
+                <li class="menu-item">
+                    <a href="product.html" class="menu-link">Products</a>
+                </li>
+                <li class="menu-item">
+                    <a href="category.html" class="menu-link">Categories</a>
+                </li>
+                <li class="menu-item">
+                    <a href="store.html" class="menu-link">Sales</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="content-container">
+            <div class="head-actions">
+            <h3> Sales </h3>
+            <a class="btn-left" href="store_add.html"><button>
+                Add Sales 
+            </button></a>
+            </div>
+
+            <div class="table-list">
+                <table>
+                    <ul></ul>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Sales-ID</th>
+                            <th>Customer Name</th>
+                            <th>Attendant</th>
+                            <th>Date</th>
+                            <th>Total</th>
+                            <th>view</th>
+                             
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="detail">
+                            <td></td>
+                            <td>#1</td>
+                            <td>Daniel</td> 
+                            <td>Trevor</td>
+                            <td>13th October 2018 </td>
+                            <td>400.80</td>
+                            <td><a href="store_view.html"><i class="fas fa-bullseye"></i></a></td>
+                            
+                        </tr>
+                        <tr>
+                             <td></td>
+                            <td>#2</td>
+                            <td>kevin</td> 
+                            <td>Trevor</td>
+                            <td>13th October 2018 </td>
+                            <td>1000.00</td>
+                            <td><a href="store_view.html"><i class="fas fa-bullseye"></i></a></td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                            <td>#3</td>
+                            <td>Jose</td> 
+                            <td>Smalling</td>
+                            <td>13th October 2018 </td>
+                            <td>120000.80</td>
+                            <td><a href="store_view.html"><i class="fas fa-bullseye"></i></a></td>
+                        </tr>
+                      
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+<script src="../assets/js/app.js"> </script>
+</html>
