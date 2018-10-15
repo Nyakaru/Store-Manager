@@ -18,9 +18,9 @@
                 <h2>Store Management</h2>
             </a>
             <div class="search">
-                <i class="fa fa-search searchIcon"></i>
+                
                 <input class="searchBox" type="search" name="search" placeholder="Product name...">
-                <input type="submit" value="Search" class="searchButton">
+                <input type="submit" value="Search"<i class="fa fa-search searchIcon"></i>
             </div>
         </header>
         <nav class="sidebar">
@@ -38,10 +38,10 @@
                     <a href="store.html" class="menu-link">Store</a>
                 </li>
                 <li class="menu-item">
-                    <a href="store_add.html" class="menu-link">Store Record</a>
-                </li>
-                <li class="menu-item">
                     <a href="user.html" class="menu-link">Users</a>
+                </li>
+                 <li class="menu-item">
+                    <a href="login.html" class="menu-link">Logout</a>
                 </li>
                 
             </ul>
@@ -51,7 +51,9 @@
                 <h1>Product</h1>
             </div>
 
-            <button class="myButton">Add Product</button>
+            <li class="myButton">
+                    <a href="add_product.html" class="menu-link">Add Product</a>
+                </li>
 
             <table>
                 <caption>Manage Products</caption>
@@ -62,8 +64,7 @@
                         <th scope="col">Qty</th>
                         <th scope="col">Category</th>
                         <th scope="col">Availability</th>
-                        <th scope="col">Edit</th>
-                        <th scope="col">Delete</th>
+                        <th scope="col">Action</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -74,8 +75,7 @@
                         <td data-label="Qty">2</td>
                         <td data-label="Category">Phones</td>
                         <td data-label="Availability">Available</td>
-                        <td data-label="Edit" class="edit-buttons"><button class="edit"><a href="edit_product.html"><i class="far fa-edit"></i></td>
-                        <td data-label="Delete" class="edit-buttons"></button><button class="delete"><i class="far fa-trash-alt"></i></button></td>
+                        <td data-label="Action" class="edit-buttons"><a href="edit_product.html"><button <i class="far fa-edit"></i></button><button><i class="far fa-trash-alt"></i></button></td>
                     </tr>
                     <tr>
                         <td scope="row" data-label="Product Name">HUAWEI X6
@@ -84,8 +84,7 @@
                         <td data-label="Qty">4</td>
                         <td data-label="Category">Tablets</td>
                         <td data-label="Availability">Unvailable</td>
-                        <td data-label="Edit" class="edit-buttons"><button class="edit"><a href="edit_product.html"><i class="far fa-edit"></i></td>
-                        <td data-label="Delete" class="edit-buttons"></button><button class="delete"><i class="far fa-trash-alt"></i></button></td>
+                        <td data-label="Action" class="edit-buttons"><a href="edit_product.html"><button <i class="far fa-edit"></i></button><button><i class="far fa-trash-alt"></i></button></td>
                     </tr>
                     <tr>
                         <td scope="row" data-label="Product Name">WESSEX
@@ -94,8 +93,7 @@
                         <td data-label="Qty">2</td>
                         <td data-label="Category">Televisions</td>
                         <td data-label="Availability">Available</td>
-                        <td data-label="Edit" class="edit-buttons"><button class="edit"><a href="edit_product.html"><i class="far fa-edit"></i></td>
-                        <td data-label="Delete" class="edit-buttons"></button><button class="delete"><i class="far fa-trash-alt"></i></button></td>
+                        <td data-label="Action" class="edit-buttons"><a href="edit_product.html"><button <i class="far fa-edit"></i></button><button><i class="far fa-trash-alt"></i></button></td>
                     </tr>
                     <tr>
                         <td scope="row" data-label="Product Name">SONY MAX
@@ -104,53 +102,13 @@
                         <td data-label="Qty">2</td>
                         <td data-label="Category">Music</td>
                         <td data-label="Availability">Available</td>
-                        <td data-label="Edit" class="edit-buttons"><button class="edit"><a href="edit_product.html"><i class="far fa-edit"></i></td>
-                        <td data-label="Delete" class="edit-buttons"></button><button class="delete"><i class="far fa-trash-alt"></i></button></td>
+                        <td data-label="Action" class="edit-buttons"><a href="edit_product.html"><button <i class="far fa-edit"></i></button><button><i class="far fa-trash-alt"></i></button></td>
                     </tr>
                 </tbody>
             </table>
-            <div class="modal">
-                <div class="modal-content">
-                    <span class="close-button">×</span>
-                    <h3>Add Product</h3>
-                    <hr>
-                    <div class="div">
-                        <form action="#">
-                            <label for="cname">Product Name</label>
-                            <input type="text" id="cname" name="category" placeholder="Product name..." required>
-
-                            <label for="price">Price</label>
-                            <input type="number" id="price" name="price" placeholder="Price..." required>
-
-                            <label for="qty">Quantity</label>
-                            <input type="number" id="qty" name="qty" placeholder="Qty..." required>
-
-                            <label for="category">Category</label>
-                            <select id="category" name="category">
-                                <option value="shirt">Phones</option>
-                                <option value="jeans">Tablets</option>
-                                <option value="polo">Televisions</option>
-                                <option value="jack">Music</option>
-                            </select>
-
-                            <label for="avail">Availability</label>
-                            <select id="avail" name="avail">
-                                <option value="#"></option>
-                                <option value="yes">Available</option>
-                                <option value="no">Unavailable</option>
-                            </select>
-
-                            <input type="submit" name="action" value="Save Changes" class="modelinput">
-                            <input type="submit" name="action" value="Close" style="background:#000000;" class="modelinput">
-                        </form>
-                    </div>
-                </div>
-            </div>
 
         </main>
     </div>
-
-    <script src="../js/main.js"></script>
 </body>
 
 </html>

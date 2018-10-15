@@ -534,24 +534,6 @@ td i{
 
 }
 
-
-.Delete{
-    color: white;
-    background-color: red;
-    width: 150px;
-    height: 40px;
-    border-radius: 5px;
-
-}
-
-.cancel{
-    color: black;
-    background-color:#f2f2f2;
-    width: 150px;
-    height: 40px;
-    border-radius: 5px;
-}
-
 input[type="file"] {
     display: none;
 }
@@ -640,34 +622,6 @@ input[type="file"] {
 .dash-items a{
     text-decoration: none;
 }
-.sidebar {
-    flex: 0 0 250px;
-    background-color: #008080;
-}
 
-.menu {
-    list-style-type: none;
-    padding: 0;
-}
 
-.menu-item {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
-}
-
-.menu-link {
-    display: block;
-    padding: 1rem 2rem;
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.menu-link:hover {
-    color: #ffffff;
-    background-color: #1f222d;
-}
-
-.menu-link:focus {
-    color: #ffffff;
-    background-color: #1f222d;
-}
 
