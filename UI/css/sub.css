@@ -237,9 +237,11 @@ a {
 }
 
 #status, #cname, #price, #qty, #size, #category, #avail {
-    width: 100%;
+    width: 95%;
+    padding-right: 20px;
     padding: 12px 20px;
     margin: 8px 0;
+    margin-left: 30px;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -272,8 +274,9 @@ table {
     border: 1px solid #ccc;
     border-collapse: collapse;
     margin: 0;
+    margin-left: 30px;
     padding: 0;
-    width: 100%;
+    width: 90%;
     table-layout: fixed;
 }
 
@@ -286,6 +289,7 @@ table tr {
     background-color: #ffffff;
     border: 1px solid #ddd;
     padding: .35em;
+
 }
 
 table th,
