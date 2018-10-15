@@ -1,47 +1,79 @@
 <!DOCTYPE html>
-<html>
- <head>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/sub.css">
     <title>User Page</title>
 </head>
 
-<nav class="sidebar">
+<body>
+    <div class="admin">
+        <header class="admin-header">
+            <a href="#" class="admin-logo">
+                <h2>Dashboard</h2>
+            </a>
+            <div class="search">
+                
+                <input class="searchBox" type="search" name="search" placeholder="User...">
+                 <li class="myButton">
+                    Search
+                </li>
+            </div>
+        </header>
+        <nav class="sidebar">
             <ul class="menu">
+                <li class="menu-item">
+                    <a href="../../index.html" class="menu-link">Home</a>
+                </li>
+                <li class="menu-item">
+                    <a href="product.html" class="menu-link">Products</a>
+                </li>
+                <li class="menu-item">
+                    <a href="category.html" class="menu-link">Categories</a>
+                </li>
+                <li class="menu-item">
+                    <a href="store.html" class="menu-link">Store</a>
+                </li>
                 <li class="menu-item">
                     <a href="user.html" class="menu-link">Users</a>
                 </li>
+                 <li class="menu-item">
+                    <a href="login.html" class="menu-link">Logout</a>
+                </li>
+                
             </ul>
         </nav>
-   <h3>Add User</h3>
-<body>
-    <div class="div">
-        <form action="#">
-            <label for="cname">Full Name</label>
-            <input type="text" id="cname" name="category" placeholder="Full name..." required>
+        <main>
+            <div class="tite">
+                <h1>New User</h1>
+            </div>
+            <table>
+                </thead>
+                <tbody>
+                    <tr>
+                        <label for="cname">Full Name</label>
+                        <input type="text" id="cname" name="category" placeholder="Full name..." required>
+                    </tr>
 
-            <label for="email">Email</label>
-            <input type="text" id="qty" name="qty" placeholder="Email..." required>
+                    <tr>
+                        <label for="email">Email</label>
+                        <input type="text" id="qty" name="qty" placeholder="Email..." required>
+                    </tr>
 
-             <label for="qty">Role</label>
-            <select id="qty" name="Role">
-                <option value="shirt">Admin</option>
-                <option value="jeans">Store attedant</option>
-            </select>
-
-
-
-            <input type="submit" name="action" value="Save Changes" class="modelinput">
-           <a href="user.html" class="modelinput">Close</a>
-        </form>
-
-                        
+                    <tr>
+                        <label for="qty">Role</label>
+                        <select id="qty" name="Role">
+                            <option value="shirt">Admin</option>
+                            <option value="jeans">Store attedant</option>
+                        </select>
+                    <input type="submit" name="action" value="Add User" class="modelinput">                        
     </div>
      
 </body>
 
 </html>
+
+                    

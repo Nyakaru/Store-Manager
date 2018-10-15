@@ -13,4 +13,4 @@ Store Manager is a web application that helps store owners manage sales and prod
  https://nyakaru.github.io/Store-Manager/ - hosts the UI templates developed.
 ### Author
 
-#Developed by:  Nyakaru Kinara
+# Developed by:  Nyakaru Kinara

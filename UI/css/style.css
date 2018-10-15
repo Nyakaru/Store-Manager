@@ -223,9 +223,13 @@ header {
         display: flex;
         margin-bottom: 2rem;
     }
+
+    .forgot{
+        padding-bottom: 2rem;
+    }
     
     .forgot a {
         color: #008080;
         margin-left: 8px;
-        padding-bottom: 10px;
+        padding-bottom: 8rem;
     }
