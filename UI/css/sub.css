@@ -269,6 +269,11 @@ a {
     padding: 20px;
 }
 
+.adduser{
+width: 60%;
+margin-left: 200px;
+align-self: center;
+}
 
 table {
     border: 1px solid #ccc;
