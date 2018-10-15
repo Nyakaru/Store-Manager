@@ -1,57 +1,96 @@
 <!DOCTYPE html>
-<html>
- <head>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/sub.css">
     <title>Product Page</title>
 </head>
 
-<nav class="sidebar">
+<body>
+    <div class="admin">
+        <header class="admin-header">
+            <a href="#" class="admin-logo">
+                <h2>Dashboard</h2>
+            </a>
+            <div class="search">
+                
+                <input class="searchBox" type="search" name="search" placeholder="User...">
+                 <li class="myButton">
+                    Search
+                </li>
+            </div>
+        </header>
+        <nav class="sidebar">
             <ul class="menu">
+                <li class="menu-item">
+                    <a href="../../index.html" class="menu-link">Home</a>
+                </li>
                 <li class="menu-item">
                     <a href="product.html" class="menu-link">Products</a>
                 </li>
+                <li class="menu-item">
+                    <a href="category.html" class="menu-link">Categories</a>
+                </li>
+                <li class="menu-item">
+                    <a href="store.html" class="menu-link">Store</a>
+                </li>
+                <li class="menu-item">
+                    <a href="user.html" class="menu-link">Users</a>
+                </li>
+                 <li class="menu-item">
+                    <a href="login.html" class="menu-link">Logout</a>
+                </li>
+                
             </ul>
         </nav>
-   <h3>Edit Product</h3>
-<body>
-    <div class="div">
-        <form action="#">
-            <label for="cname">Existing Product</label>
-            <input type="text" id="cname" name="category" placeholder="Product name..." required>
+        <main>
+            <div class="tite">
+                <h1>Edit Product</h1>
+            </div>
+            <table>
+                </thead>
+                <tbody>
+                    <tr>
+                        <label for="cname">Existing Product</label>
+                        <input type="text" id="cname" name="category" placeholder="Product name..." required>
 
-            <label for="price">Price</label>
-            <input type="number" id="price" name="price" placeholder="Price..." required>
+                    </tr>
 
-            <label for="qty">Quantity</label>
-            <input type="number" id="qty" name="qty" placeholder="Qty..." required>
+                    <tr>
+                        <label for="price">Price</label>
+                        <input type="number" id="price" name="price" placeholder="Price..." required>
+                    </tr>
 
-            <label for="category">Category</label>
-            <select id="category" name="category">
-                <option value="shirt">Phones</option>
-                <option value="jeans">Tablets</option>
-                <option value="polo">Televisions</option>
-                <option value="jack">Music</option>
-            </select>
+                    <tr>
+                        <label for="category">Category</label>
+                        <select id="category" name="category">
+                            <option value="shirt">Phones</option>
+                            <option value="jeans">Tablets</option>
+                            <option value="polo">Televisions</option>
+                            <option value="jack">Music</option>
+                        </select>
 
-            <label for="avail">Availability</label>
-            <select id="avail" name="avail">
-                <option value="#"></option>
-                <option value="yes">Available</option>
-                <option value="no">Unavailable</option>
-            </select>
-
-            <input type="submit" name="action" value="Save Changes" class="modelinput">
-           <a href="product.html" class="modelinput">Close</a>
-        </form>
-
+                    </tr>
+                    <tr>
                         
-    </div>
+                        <label for="qty">Quantity</label>
+                        <input type="number" id="price" name="qty" required>
+                    </tr>
+                    <tr>
+                        <label for="avail">Availability</label>
+                        <select id="avail" name="avail">
+                            <option value="#"></option>
+                            <option value="yes">Available</option>
+                            <option value="no">Unavailable</option>
+                        </select>
+                    </tr>
+                    <input type="submit" name="action" value="Add Product" class="modelinput">                       
+        </div>
      
-</body>
+    </body>
 
 </html>
+
