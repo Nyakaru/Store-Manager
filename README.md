@@ -8,9 +8,9 @@ Store Manager is a web application that helps store owners manage sales and prod
     features - contains all the features created with all the necessary pages to allow the application function .
     gh-pages - for hosting in the GitHub Pages.
 
-##Hosting
+## Hosting
 
  https://nyakaru.github.io/Store-Manager/ - hosts the UI templates developed.
-###Author
+### Author
 
-Developed by:  Nyakaru Kinara
+#Developed by:  Nyakaru Kinara
