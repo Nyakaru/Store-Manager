@@ -1,6 +1,3 @@
-/*-------------
-General Styles
--------------*/
 
 * {
     margin: 0;
@@ -13,11 +10,6 @@ body {
     height: 100%;
     overflow-x: hidden;
 }
-
-
-/*------------------
-Top Navigation Styles
---------------------*/
 
 .admin {
     --spacing: 1rem;
@@ -99,11 +91,6 @@ a {
     border-radius: 0;
 }
 
-
-/*------------------
-Sidebar Nac Styles
---------------------*/
-
 .sidebar {
     flex: 0 0 250px;
     grid-area: nav;
@@ -136,10 +123,6 @@ Sidebar Nac Styles
     background-color: #1f222d;
 }
 
-
-/*------------------
-Dashboard Area
---------------------*/
 
 .dash-container {
     display: flex;
@@ -188,9 +171,6 @@ Dashboard Area
     background: purple;
 }
 
-/*------------------
-Popup Button
---------------------*/
 .myButton {
     border: 1px solid #008080;
     display: inline-block;
@@ -256,7 +236,7 @@ Popup Button
     transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
 }
 
-#status, #cname, #sku, #price, #qty, #size, #category, #avail {
+#status, #cname, #price, #qty, #size, #category, #avail {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -286,11 +266,6 @@ Popup Button
     background-color: #f2f2f2;
     padding: 20px;
 }
-
-
-/*------------------
-Table styles
---------------------*/
 
 
 table {
