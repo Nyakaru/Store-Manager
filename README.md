@@ -15,4 +15,3 @@ Store Manager is a web application that helps store owners manage sales and prod
 
 # Developed by:  Nyakaru Kinara
 
-"postgres://yfooimpgxsifhf:a16d1375466a83755a61ec162b2989f25355ce02319fcd40cd671c9b056934d2@ec2-54-83-49-109.compute-1.amazonaws.com:5432/d8vc997hq3d5sm"
