@@ -17,7 +17,7 @@
             </a>
             <div class="search">
                 
-                <input class="searchBox" type="search" name="search" placeholder="User...">
+                <input class="searchBox" type="search" name="search" placeholder="Product...">
                  <li class="myButton">
                     Search
                 </li>
@@ -51,9 +51,10 @@
                 <h1>New Product</h1>
             </div>
             <div class="adduser">
-            <table>
+            <table> 
                 </thead>
-                <tbody>
+                <tbody id="add_product_form">
+
                     <tr>
                         <label for="cname">Product Name</label>
                         <input type="text" id="cname" name="category" placeholder="Product name..." required>
@@ -64,34 +65,20 @@
                         <label for="price">Price</label><br>
                         <input type="number" id="price" name="price" placeholder="Price..." required>
                     </tr>
-
-                    <tr>
-                        <label for="category">Category</label>
-                        <select id="category" name="category">
-                            <option value="shirt">Phones</option>
-                            <option value="jeans">Tablets</option>
-                            <option value="polo">Televisions</option>
-                            <option value="jack">Music</option>
-                        </select>
-
-                    </tr>
                     <tr>
                         
                         <label for="qty">Quantity</label>
-                        <input type="number" id="price" name="qty" required>
+                        <input type="number" id="avail" name="avail" required>
                     </tr>
-                    <tr>
-                        <label for="avail">Availability</label>
-                        <select id="avail" name="avail">
-                            <option value="#"></option>
-                            <option value="yes">Available</option>
-                            <option value="no">Unavailable</option>
-                        </select>
-                    </tr>
-                    <input type="submit" name="action" value="Add Product" class="modelinput">                       
-        </div>
+                    <input type="submit" id="submit" name="action" value="Add Product" class="modelinput" onclick="add_product()">
+                </tbody>                       
+            </div>
+            </table>
      
     </body>
 
+    <script src="../js/product.js"></script>
+
 </html>
+
 
