@@ -50,42 +50,18 @@
             <div class="tite">
                 <h1>New Sale</h1>
             </div>
-            <div class="adduser">
+            <div class="adduser" id="add_sale_form">
             <table>
                     <tr>
-                        <label for="date">Date of Sale</label>
-                        <input type="date" id="cname" name="date" required>
-
+                        <label for="amount">Product Info</label>
+                        <input type="text && number" id="size" name="amount" required>
                     </tr>
-
-                    <tr>
-                        <label for="uname">Customer Name</label>
-                        <input type="text" id="avail" name="username" required>
-                    </tr>
-
-                    <tr>
-                        <label for="status">Product Name</label>
-                        <select id="status" name="status">
-                        <option value="#"></option>
-                        <option value="#">WESSEX</option>
-                        <option value="#">VESSEX</option>
-                        </select>
-                    </tr>
-                    <tr>
-                        
-                        <label for="qty">Quantity</label>
-                        <input type="number" id="price" name="qty" required>
-                    </tr>
-                    <tr>
-                        <label for="amount">     Amount</label>
-                        <input type="number" id="size" name="amount" required>
-                    </tr>
-                    <input type="submit" name="action" value="Create Sale" class="modelinput"> 
+                    <input type="submit" name="action" value="Create Sale" class="modelinput" onclick="add_sale()"> 
             </table>
 
         </div>
      
     </body>
-
+    <script src="../js/sale.js"></script>
 </html>
 

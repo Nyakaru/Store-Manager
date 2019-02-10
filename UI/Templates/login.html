@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <form id="loginform"></form>
 
     <header>
         <h2><a href="../../index.html">Store Manager</a></h2>
@@ -20,19 +21,21 @@
         </nav>
     </header>
 
+
     <section class="main">
         <div class="background-image" style="background-image: url(UI/images/back.jpg);"></div>
         <div class="container">
             <div class="head">Login</div>
             <div class="login-item">
-                <form action="" class="form form-signup">
+                <form action="#" id="login-form" class="form form-signup" onsubmit="login()">
                     <div class="form-field">
-                        <input id="login-username" class="form-input" type="text" placeholder=" Enter Email Address" required>
+                        <input class="form-input" type="text" id="login-username" placeholder=" Enter Username" required>
                     </div>
 
                     <div class="form-field">
-                        <input id="login-password" class="form-input" type="password" placeholder="Password" required>
+                        <input class="form-input" type="password" id="login-password" placeholder="Password" required>
                     </div>
+                    
 
                     <div class="form-field">
                         <input type="submit" value="Login">
@@ -47,5 +50,7 @@
     </section>
 
 </body>
+ 
+ <script src="../js/login.js"></script>
 
 </html>
